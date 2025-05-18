@@ -1,0 +1,32 @@
+name: ml_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - scipy
+  - jupyterlab
+  - notebook
+  - ipykernel
+  - statsmodels
+  - xgboost
+  - lightgbm
+  - tqdm
+  - joblib
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pytorch-cuda=11.8  # Only if using GPU (NVIDIA). Remove if on CPU-only.
+  - tensorflow
+  - keras
+  - openpyxl
+  - xlrd
+  - plotly
+  - transformers
+  - datasets
+  - rdkit

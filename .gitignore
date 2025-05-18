@@ -1,0 +1,53 @@
+# Ignore data files
+*.csv
+*.tsv
+*.xlsx
+*.xls
+
+# Ignore model files and serialized data
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.pth
+*.ckpt
+*.sav
+
+# Ignore documents
+*.pdf
+*.doc
+*.docx
+*.ppt
+*.pptx
+*.txt
+
+# Ignore notebooks' checkpoint folders
+.ipynb_checkpoints/
+
+# Ignore Python bytecode
+__pycache__/
+*.py[cod]
+*.so
+
+# Ignore Jupyter runtime and config
+~/.ipython/
+~/.jupyter/
+*.nbconvert.ipynb
+
+# Ignore virtual environments
+.env/
+.venv/
+env/
+venv/
+
+# Ignore VSCode settings
+.vscode/
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore logs and outputs
+*.log
+*.out
+*.err
+
