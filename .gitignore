@@ -28,6 +28,7 @@
 __pycache__/
 *.py[cod]
 *.so
+*.virtual
 
 # Ignore Jupyter runtime and config
 ~/.ipython/
